@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -51,6 +52,25 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				// VPN Status Colors
+				connected: {
+					DEFAULT: 'hsl(var(--connected))',
+					foreground: 'hsl(var(--connected-foreground))'
+				},
+				disconnected: {
+					DEFAULT: 'hsl(var(--disconnected))',
+					foreground: 'hsl(var(--disconnected-foreground))'
+				},
+				connecting: {
+					DEFAULT: 'hsl(var(--connecting))',
+					foreground: 'hsl(var(--connecting-foreground))'
+				},
+				// Server Load Colors
+				server: {
+					good: 'hsl(var(--server-good))',
+					medium: 'hsl(var(--server-medium))',
+					poor: 'hsl(var(--server-poor))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
